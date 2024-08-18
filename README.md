@@ -22,19 +22,8 @@ dedescan是一款可以扫描所有已公开的dedecms漏洞的扫描器。
 
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-用法： python3 dedescan.py
-=======
+
 用法： python dedescan.py
->>>>>>> beef5584cec05ea37388cb0ec12c5b8f5d235f78
-=======
-用法： python dedescan.py
->>>>>>> beef5584cec05ea37388cb0ec12c5b8f5d235f78
-=======
-用法： python dedescan.py
->>>>>>> beef5584cec05ea37388cb0ec12c5b8f5d235f78
 
 然后直接输入域名即可
 
@@ -78,20 +67,8 @@ dedescan是一款可以扫描所有已公开的dedecms漏洞的扫描器。
 ## 其他说明
 
 
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 所有exp、poc均为网上收集，原作者由于特殊原因删库了，可以克隆这个库使用
-=======
-所有exp、poc均为网上收集
->>>>>>> beef5584cec05ea37388cb0ec12c5b8f5d235f78
-=======
-所有exp、poc均为网上收集
->>>>>>> beef5584cec05ea37388cb0ec12c5b8f5d235f78
-=======
-所有exp、poc均为网上收集
->>>>>>> beef5584cec05ea37388cb0ec12c5b8f5d235f78
+
 
 本程序依赖：
 
@@ -101,15 +78,7 @@ dedescan是一款可以扫描所有已公开的dedecms漏洞的扫描器。
 - threading
 - itertools
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 因为本程序编写只是为了自己使用，未加入批量功能，连多线程都是很随意（甚至都不能算是多线程），有时间再重构吧.....
 
-=======
->>>>>>> beef5584cec05ea37388cb0ec12c5b8f5d235f78
-=======
->>>>>>> beef5584cec05ea37388cb0ec12c5b8f5d235f78
-=======
->>>>>>> beef5584cec05ea37388cb0ec12c5b8f5d235f78
 
