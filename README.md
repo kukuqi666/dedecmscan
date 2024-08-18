@@ -1,6 +1,6 @@
 # dedecmscan
 
-
+修复原有bug和找不到lib.lib的问题，目前此版本用dedecmscanllib替换了lib，所以不会再出现错误，如果想用原来的版本，请去克隆master分支
 
 dedescan是一款可以扫描所有已公开的dedecms漏洞的扫描器。
 
