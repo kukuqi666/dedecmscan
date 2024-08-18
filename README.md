@@ -1,6 +1,7 @@
 # dedecmscan
 
 修复原有bug和找不到lib.lib的问题，目前此版本用dedecmscanllib替换了lib，所以不会再出现错误，如果想用原来的版本，请去克隆master分支
+本项目所用的模块尽量在虚拟环境下安装，不然可能出现安装模块报错的情况，请自行测试
 
 dedescan是一款可以扫描所有已公开的dedecms漏洞的扫描器。
 
