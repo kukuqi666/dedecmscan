@@ -1,5 +1,5 @@
 from termcolor import cprint
-from lib.lib import check
+from dedecmscanlib.check import Check
 
 def main():
     title = '''
@@ -21,13 +21,13 @@ def main():
 
     '''
     author = '''
-                                                  author by : lengyi
+                                                  author by : kukuqi
     '''
     cprint(title, "blue")
     cprint(author, "green")
 
     target = input("Please enter the url you need to detect: ")
-    start = check(target)
+    start = Check(target)
     start.poc()
 
 if __name__ == '__main__':
