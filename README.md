@@ -29,36 +29,14 @@ dedescan是一款可以扫描所有已公开的dedecms漏洞的扫描器。
 
 ## 已实现的功能
 
-- 后台查找（win）
-- 版本探测
-- 短路经检测
-- 路径检测
-- trace检测
-- advancedsearch.php SqlInject
-- sql_class.php SqlInject
-- feedback_js.php SqlInject
-- getpage xss
-- guestbook.php SqlInject
-- infosearch.php SqlInject
-- jump.php xss
-- login.php xss
-- recommend.php SQL 
-- redirect
-- reg_new.php SqlInject
-- search.php sqlinject
-- V5order by SqlInject
-- article_keyword_select.php xss
-- catelog_tree.php xss
-- content_list.php xss
-- file_pic_vie.php xss
-- pic_view.php xss
-- select_images.php xss
-- writebook getshell
-- digg_frame.php  rce
-- list.php xss
-- login.php xss
-- config.php xss
-- flash xss
+ info 和 script 目录现在包含了多个功能脚本。这些脚本涵盖了 SQL 注入、XSS 漏洞、远程代码执行等多种漏洞检测功能，以及后台管理面板查找、版本信息获取等功能。
+ 
+新增脚本解释
+1. FindAdmin.py: 用于查找后台管理界面。可以添加更多路径以增强功能。
+
+2. GetVersion.py: 用于获取版本信息。可以添加更多路径以增强功能。
+
+3. passwordrest.py, path.py, shortpath.py, trace.py: 这些脚本可以根据需求进一步整合到 Check 类中。具体功能可以根据这些脚本的内容来决定如何使用。
 
 ## 部分截图
 
@@ -67,7 +45,7 @@ dedescan是一款可以扫描所有已公开的dedecms漏洞的扫描器。
 ## 其他说明
 
 
-所有exp、poc均为网上收集，原作者由于特殊原因删库了，可以克隆这个库使用
+所有exp、poc均为网上收集，原作者由于特殊原因删库了，本仓库在原来的基础下进行二次更新并且完善
 
 
 本程序依赖：
@@ -77,8 +55,4 @@ dedescan是一款可以扫描所有已公开的dedecms漏洞的扫描器。
 - termcolor
 - threading
 - itertools
-
-
-因为本程序编写只是为了自己使用，未加入批量功能，连多线程都是很随意（甚至都不能算是多线程），有时间再重构吧.....
-
 
