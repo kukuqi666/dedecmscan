@@ -86,7 +86,11 @@ celerybeat-schedule
 .venv
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 env/
+=======
+myenv/
+>>>>>>> beef5584cec05ea37388cb0ec12c5b8f5d235f78
 =======
 myenv/
 >>>>>>> beef5584cec05ea37388cb0ec12c5b8f5d235f78
@@ -112,6 +116,11 @@ venv.bak/
 .mypy_cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+report.json
+>>>>>>> beef5584cec05ea37388cb0ec12c5b8f5d235f78
 =======
 
 report.json
